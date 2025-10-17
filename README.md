@@ -6,22 +6,27 @@ To write a python program to implement multivariate linear regression and predic
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
 Step1
+
 Import required libraries
 
 Step2
+
 Load the dataset
 
 Step3
+
 Split the dataset and Create the Linear Regression model
 
 Step4
+
 Train the model and Evaluate the model
 
 Step5
+
 Visualize residual errors and Interpret results
 
 ## Program:
-
+```
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn import datasets, linear_model, metrics
@@ -74,7 +79,7 @@ plt.title("Residual errors (California Housing)")
 # show the plot
 plt.show()
 
-
+```
 
 ## Output:
 
